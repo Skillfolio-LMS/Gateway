@@ -1,0 +1,50 @@
+# Build results
+bin/
+obj/
+
+# Rider / JetBrains IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
+
+# Resharper / dotCover
+_ReSharper*/
+*.DotSettings.user
+*.dotCover
+
+# ASP.NET / Entity Framework
+App_Data/
+*.dbmdl
+*.jfm
+
+# Others
+.env
+**/appsettings.json
+build_output/
+**/appsettings.Development.json
